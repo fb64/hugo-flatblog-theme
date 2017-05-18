@@ -16,7 +16,7 @@
         });
     }
 </script>
-{{ if not (in (printf "%#v" .Site.BaseURL) "localhost") }}
+{{ if and (not (in (printf "%#v" .Site.BaseURL) "localhost")) (isset .Site.Params "google_adsense") }}
     {{ with .Site.Params.google_adsense }}
         <script>
             //$(".content-card p:nth-of-type(2)").after('<p><ins class="adsbygoogle" style="display:inline-block;width:100%;min-height:50px;" data-ad-client="{{ . }}" data-ad-slot="6765288764"></ins></p>');
