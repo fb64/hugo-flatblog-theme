@@ -1,10 +1,8 @@
 # Hugo Fblog Theme
 
 A flat bootstrap theme for the Hugo static website engine.
-Foked from Phlat Theme and customized ![Hugo Phlat Theme](https://raw.githubusercontent.com/nraboy/hugo-phlat-theme/) for my blog.
+Foked from Phlat Theme and customized ![Hugo Phlat Theme](https://github.com/nraboy/hugo-phlat-theme) for my blog.
 
-
-A functional sample of this theme can be seen in action via [Own the Web](https://www.owntheweb.net).
 
 ## Installation
 
@@ -13,7 +11,7 @@ Use an existing Hugo project or create a fresh one before trying to install this
 ```
 mkdir themes
 cd themes
-git clone https://github.com/nraboy/hugo-fblog-theme
+git clone https://github.com/fb64/hugo-fblog-theme
 ```
 
 See the [official Hugo themes documentation](http://gohugo.io/themes/installing) for more info.
@@ -114,7 +112,7 @@ Many of these parameters are social media links that appear at the bottom right 
     google_webmaster = ""
     bing_webmaster = ""
     alexa = ""
-    twitter = "https://www.twitter.com/nraboy"
+    twitter = "https://www.twitter.com/[your twitter]"
     googleplus = ""
     linkedin = ""
     youtube = ""
