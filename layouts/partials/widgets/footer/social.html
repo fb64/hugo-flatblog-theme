@@ -7,6 +7,9 @@
         {{ with .Site.Social.googleplus }}
             <li><a target="_blank" href="{{ . }}"><i class="fa fa-google-plus-square fa-lg"></i></a></li>
         {{ end }}
+        {{ with .Site.Social.github }}
+            <li><a target="_blank" href="https://github.com/{{ . }}"><i class="fa fa-github fa-lg"></i></a></li>
+        {{ end }}
         {{ with .Site.Social.facebook }}
             <li><a target="_blank" href="{{ . }}"><i class="fa fa-facebook fa-lg"></i></a></li>
         {{ end }}

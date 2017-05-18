@@ -41,7 +41,8 @@ theme                   = "hugo-phlat-theme"
 
 # Social media icons and links that appear in the footer
 [social]
-    twitter             = "https://www.twitter.com/NAME_HERE"
+    twitter             = "NAME_HERE"
+    github              = "NAME_HERE"
     googleplus          = "https://plus.google.com/NAME_HERE"
     linkedin            = "https://www.linkedin.com/in/NAME_HERE"
     youtube             = "https://www.youtube.com/users/NAME_HERE"
