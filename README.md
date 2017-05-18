@@ -1,4 +1,4 @@
-# Hugo Fblog Theme
+# Hugo FlatBlog Theme
 
 A flat bootstrap theme for the Hugo static website engine.
 Foked from [Phlat Theme](https://github.com/nraboy/hugo-phlat-theme) and customized  for my blog.
